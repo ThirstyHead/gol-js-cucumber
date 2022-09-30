@@ -2,9 +2,10 @@
   "name": "gol-js-cucumber",
   "version": "0.1.0",
   "description": "Game of Life in JavaScript + Cucumber",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "cucumber-js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/ThirstyHead/gol-js-cucumber/issues"
   },
-  "homepage": "https://github.com/ThirstyHead/gol-js-cucumber#readme"
+  "homepage": "https://github.com/ThirstyHead/gol-js-cucumber#readme",
+  "dependencies": {
+    "@cucumber/cucumber": "^8.6.0"
+  }
 }
