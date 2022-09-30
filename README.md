@@ -1,6 +1,20 @@
 # gol-js-cucumber
 Game of Life in JavaScript
 
+## Running the Game
+
+If you have cloned the repo to your local machine:
+
+* Type `npm install` once to install all dependencies you'll need to run the game.
+* Type `npm test` to run your tests.
+* Both passing and failing tests will appear in the console.
+* Look in the `reports` folder for an HTML report that provides more details about passing and failing tests. 
+
+If you are running this from GitHub:
+
+* Every new commit will trigger the Continuous Integration (CI) process to run, which will run all tests automatically. 
+* Look for the reports when the CI process is done. Both successful and failing tests are included in the reports. 
+
 ## Introduction
 [From Wikipedia: https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life]
 
